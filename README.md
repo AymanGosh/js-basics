@@ -15,3 +15,17 @@ let arr2=[...arr1] // copy arr1
 arr1[0]=9999
 
 console.log(arr2)
+------------------------
+let companies = ["Tesla", "Amazon", "Google", "Microsoft"]
+
+for(let i in companies){
+  console.log(i) // 0 1 2 3 
+}
+
+for(let company of companies){
+  console.log(company) // tesla amazon ...  
+}
+
+for(let i = 0; i < 10; i++){
+  console.log(i)
+}
