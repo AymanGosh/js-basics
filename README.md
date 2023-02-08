@@ -29,3 +29,10 @@ for(let company of companies){
 for(let i = 0; i < 10; i++){
   console.log(i)
 }
+------------------------
+let obj={1:20 , $:30}
+let key="name";
+let val="soaad"
+obj[key]=val;
+obj.key=val;
+console.log(obj)//{ '1': 20, '$': 30, name: 'soaad', key: 'soaad' }
