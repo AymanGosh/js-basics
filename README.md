@@ -5,12 +5,12 @@ There are also other falsey expressions in JS, such as:
 * 0 - yes, JavasScript sees the number zero as falsey if it’s used as a number
 * "" or '' - an empty string value is also falsey
 * undefined
-* NaN
+* NaN : not a number
 * null - this is a special expression that we’ll talk more about later, but it’s a way of saying “no value” that is different from undefined
 ------------------------
 let arr1=[1,2,3,4,5]
 
-let arr2=[...arr1]
+let arr2=[...arr1] // copy arr1
 
 arr1[0]=9999
 
